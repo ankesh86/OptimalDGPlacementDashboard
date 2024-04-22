@@ -2,7 +2,6 @@
 # Import libraries
 import streamlit as st
 import altair as alt
-
 #######################
 # Page configuration
 st.set_page_config(
@@ -64,7 +63,7 @@ st.write(f'Network selected: :blue[{option}]')
 
 #######################
 # Adding multipage
-import multipage_streamlit as mt
+import streamlit_multipage as mt
 from PowerDashPages import DGplacement, networkdetails,optimalloc
 app = mt.MultiPage()
 

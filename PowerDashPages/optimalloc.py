@@ -1,5 +1,5 @@
 import streamlit as st
-from multipage_streamlit import State
+from streamlit_multipage import State
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
