@@ -3,7 +3,7 @@ import plotly.graph_objs as go
 import networkx as nx
 import pandas as pd
 import numpy as np
-from streamlit_multipage import State
+from multipage_streamlit import State
 from streamlit_echarts import st_echarts
 
 # Function to load data from CSV files
